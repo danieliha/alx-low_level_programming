@@ -4,8 +4,7 @@
  * main - prints the sum of all the multiples of 3 or 5 upto 1024
  * Return: Always 0 (success)
  */
-int main(void)
-
+int main(void);
 {
 	int i, z = 0;
 
