@@ -4,7 +4,7 @@
  * jack _bauer - prints every minute of the day of jack bauer
  * Return: Always 0 (success)
  */
-void jack_bauer(void);
+void jack_bauer(void)
 {
 	int a, b, c, d;
 
@@ -25,11 +25,10 @@ void jack_bauer(void);
 						_putchar(d + '0');
 						_putchar('\n');
 						jack_bauer();
-						return (0);
 					}
 				}
 			}
 		}
 	}
 }
-i
+
