@@ -1,19 +1,18 @@
 #include "main.h"
-#include <unistd.h>
-
+#include <stdio.h>
 /**
- * print_numbers - print the numbers since 0 up to 9
- * Return: The numbers since 0 up to 9
+ * print_numbers - print numbers
+ * Return: 0
  */
-
 void print_numbers(void)
 {
-	int x;
+	char n = 0;
 
-	for (x = 0; x <= 9; x++)
-
+	while (n <= 9)
 	{
-	_putchar(x + '0');
+		putchar('0' + n);
+		n++;
 	}
-	_putchar('\n');
+	putchar('\n');
 }
+
