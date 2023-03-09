@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * is_prime_number - determines if a number if prime 
+ * is_prime_number - determines if a number if prime.
  * @n: number to be tested.
  * Return: returns 1 if the input integer is a prime number
  * otherwise returns 0 if number is not prime.
