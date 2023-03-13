@@ -49,6 +49,7 @@ int _atoi(char *s)
  *
  * Return: 0 (success), 1 (Error)
  */
+
 int main(int argc, char *argv[])
 {
 	int result, num1, num2;
